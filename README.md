@@ -14,9 +14,17 @@ A hacked client for Minecraft based on the open-source Liquidbounce base.
 ## Installation
 ------------
 
-1.  Download the latest version of Zephyr from our website.
-2.  Extract the contents of the zip file to a folder on your computer.
-3.  Run the `Zephyr.jar` file to launch the client.
+1.  Clone the Zephyr repository using Git
+2.  Navigate to the cloned repository: `cd Zephyr`
+3.  Build the project using Gradle: `./gradlew build`
+4.  Run the client using the generated JAR file: `java -jar build/libs/Zephyr.jar`
+
+## Installation (Alternative)
+------------------------------
+1.  Download the latest Zephyr release from the GitHub releases page.
+2.  Extract the contents of the downloaded ZIP file to a directory of your choice.
+3.  Navigate to the extracted directory and find the JAR file corresponding to your Minecraft version.
+4.  Run the JAR file using Java: `java -jar Zephyr.jar`
 
 ## Configuration
 -------------

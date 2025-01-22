@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ccbluex.liquidbounce.utils.aiming.PointFindingKtTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-22T01:33:47" hostname="WIN-TRJ" time="0.62">
+  <properties/>
+  <testcase name="testPlanePointConstruction()" classname="net.ccbluex.liquidbounce.utils.aiming.PointFindingKtTest" time="0.62"/>
+  <system-out><![CDATA[0.9999547902137794
+(-0.5773379734399384, 0.5772965550422668, -0.5773379734399384)
+( 1.000E+0  2.980E-8  0.000E+0)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

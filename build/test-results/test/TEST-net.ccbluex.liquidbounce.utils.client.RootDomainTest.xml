@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ccbluex.liquidbounce.utils.client.RootDomainTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-01-22T01:33:48" hostname="WIN-TRJ" time="0.025">
+  <properties/>
+  <testcase name="testRootDomainWithSubdomain()" classname="net.ccbluex.liquidbounce.utils.client.RootDomainTest" time="0.02"/>
+  <testcase name="testRootDomainWithIp()" classname="net.ccbluex.liquidbounce.utils.client.RootDomainTest" time="0.0"/>
+  <testcase name="testRootDomainWithIpAndPort()" classname="net.ccbluex.liquidbounce.utils.client.RootDomainTest" time="0.0"/>
+  <testcase name="testRootDomainWithDot()" classname="net.ccbluex.liquidbounce.utils.client.RootDomainTest" time="0.001"/>
+  <testcase name="testRootDomainWithSubdomainAndDot()" classname="net.ccbluex.liquidbounce.utils.client.RootDomainTest" time="0.0"/>
+  <testcase name="testRootDomain()" classname="net.ccbluex.liquidbounce.utils.client.RootDomainTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
