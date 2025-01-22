@@ -3,6 +3,9 @@
 
 A hacked client for Minecraft based on the open-source Liquidbounce base.
 
+# Release Notes
+Available in our /releasenotes.md
+
 ## Features
 ------------
 
