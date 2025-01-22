@@ -1,7 +1,10 @@
+# IMPORTANT
+Before engaging in or using this software, you must agree to the Terms of Service, available [Here](/TermsOfService.md), the EULA, and Privacy Policy, available [Here](/PrivacyPolicy.md).
+
 # Zephyr Client
 ================
 
-A hacked client for Minecraft based on the open-source Liquidbounce base.
+A hacked client for Minecraft based on the open-source Liquidbounce base. (Liquidbounce is under the GPL-3.0 license, allowing us to reuse it under the same license)
 
 # Release Notes
 [Release Notes](/releasenotes.md)
