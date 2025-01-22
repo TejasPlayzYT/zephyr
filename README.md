@@ -1,5 +1,5 @@
 # IMPORTANT
-Before engaging in or using this software, you must agree to the Terms of Service, available [Here](/TermsOfService.md), the EULA, and Privacy Policy, available [Here](/PrivacyPolicy.md).
+Before engaging in or using this software, you must agree to the Terms of Service, available [Here](/TermsOfService.md), the Minecraft EULA, and Privacy Policy, available [Here](/PrivacyPolicy.md).
 
 # Zephyr Client
 ================
