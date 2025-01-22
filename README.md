@@ -16,6 +16,7 @@ A hacked client for Minecraft based on the open-source Liquidbounce base. (Liqui
 *   **Combat Enhancements**: Take your combat game to the next level with features like aimbot, killaura, and criticals.
 *   **Visual Enhancements**: Customize your Minecraft experience with features like ESP, nametags, and custom crosshairs.
 *   **Miscellaneous**: Zephyr also includes features like auto-logout, auto-reconnect, and more.
+*   **Liquidbounce**: By using Zephyr, gain the benifits of Liquidbounce client and use them with a redefined look!
 
 ## Installation
 ------------
