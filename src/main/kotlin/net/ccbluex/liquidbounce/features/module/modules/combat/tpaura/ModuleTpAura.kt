@@ -40,6 +40,59 @@ import net.minecraft.util.math.Vec3d
 
 object ModuleTpAura : ClientModule("TpAura", Category.COMBAT, disableOnQuit = true) {
 
+    // Attack range configuration
+    private val attackRange by float("AttackRange", 4.2f, 3f..5f)
+
+    // Scheduler for managing attack clicks
+    val clickScheduler = tree(ClickScheduler(this, true))
+
+    // Mode selection for the module
+    val mode = choices<TpAuraChoice>("Mode", AStarMode, arrayOf(AStarMode, ImmediateMode))
+
+    // Tracker for managing targets
+    val targetTracker = tree(TargetTracker())
+
+    // Chronometer to track time intervals
+    val stuckChronometer = Chronometer()
+
+    // Player's desynchronized position
+    var desyncPlayerPosition: Vec3d? = null
+
+    // Handler for repeated attacks
+    @Suppress("unused")
+    private val attackRepeatable = tickHandler {
+        val position = desyncPlayerPosition ?: player.pos
+
+        clickScheduler.clicks {
+            val enemy = targetTracker.enemies()
+                .filter { it.squaredBoxedDistanceTo(position) <= attackRange * attackRange }
+                .minByOrNull { it.hurtTime } ?: return@clicks false
+
+            enemy.attack(true, keepSprint = true)
+            true
+        }
+    }
+
+    // Handler for rendering events
+    @Suppress("unused")
+    val renderHandler = handler<WorldRenderEvent> { event ->
+        val (yaw, pitch) = RotationManager.currentRotation ?: player.rotation
+        val wireframePlayer = WireframePlayer(desyncPlayerPosition ?: return@handler, yaw, pitch)
+        wireframePlayer.render(event, Color4b(36, 32, 147, 87), Color4b(36, 32, 147, 255))
+    }
+
+}
+
+// Choice class for TpAura modes
+open class TpAuraChoice(name: String) : Choice(name) {
+
+    override val parent: ChoiceConfigurable<TpAuraChoice>
+        get() = ModuleTpAura.mode
+
+}
+
+object ModuleTpAura : ClientModule("TpAura", Category.COMBAT, disableOnQuit = true) {
+
     private val attackRange by float("AttackRange", 4.2f, 3f..5f)
 
     val clickScheduler = tree(ClickScheduler(this, true))

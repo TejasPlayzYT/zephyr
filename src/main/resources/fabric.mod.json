@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "liquidbounce",
+  "id": "ZephyrClient",
   "version": "${version}",
   "name": "Zephyr",
-  "description": "Best Fabric client by Zewphyr",
+  "description": "Best Fabric client by Zephyr",
   "authors": [
     "Chimera Studios"
   ],
