@@ -21,21 +21,10 @@ package net.ccbluex.liquidbounce.features.module
 enum class Category(val readableName: String) {
 
     COMBAT("Combat"),
-    PLAYER("Player"),
     MOVEMENT("Movement"),
+    PLAYER("Player"),
     RENDER("Render"),
-    WORLD("World"),
-    MISC("Misc"),
-    EXPLOIT("Exploit"),
-    FUN("Fun"),
-
-    /**
-     * package net.ccbluex.liquidbounce.features.module.modules
-     * // Ensure this matches the file path
-     */
-     * A temporary category for client-related modules, since we don't have a client settings UI yet.
-     */
-    CLIENT("Client");
+    MISC("Misc");
 
     companion object {
         /**

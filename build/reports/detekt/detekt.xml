@@ -3,7 +3,4 @@
 <file name="C:/Users/teeja/Desktop/zephyr/src/main/kotlin/net/ccbluex/liquidbounce/features/module/modules/Category.kt">
 	<error line="19" column="1" severity="warning" message="The package declaration does not match the actual file location." source="detekt.InvalidPackageDeclaration" />
 </file>
-<file name="C:/Users/teeja/Desktop/zephyr/src/main/kotlin/net/ccbluex/liquidbounce/features/module/modules/combat/tpaura/ModuleTpAura.kt">
-	<error line="90" column="2" severity="warning" message="The file C:\Users\teeja\Desktop\zephyr\src\main\kotlin\net\ccbluex\liquidbounce\features\module\modules\combat\tpaura\ModuleTpAura.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
-</file>
 </checkstyle>

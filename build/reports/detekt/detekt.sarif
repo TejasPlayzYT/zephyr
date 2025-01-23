@@ -25,28 +25,6 @@
             "text": "The package declaration does not match the actual file location."
           },
           "ruleId": "detekt.naming.InvalidPackageDeclaration"
-        },
-        {
-          "level": "warning",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///C:/Users/teeja/Desktop/zephyr/src/main/kotlin/net/ccbluex/liquidbounce/features/module/modules/combat/tpaura/ModuleTpAura.kt"
-                },
-                "region": {
-                  "endColumn": 2,
-                  "endLine": 90,
-                  "startColumn": 2,
-                  "startLine": 90
-                }
-              }
-            }
-          ],
-          "message": {
-            "text": "The file C:\\Users\\teeja\\Desktop\\zephyr\\src\\main\\kotlin\\net\\ccbluex\\liquidbounce\\features\\module\\modules\\combat\\tpaura\\ModuleTpAura.kt is not ending with a new line."
-          },
-          "ruleId": "detekt.style.NewLineAtEndOfFile"
         }
       ],
       "tool": {

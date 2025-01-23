@@ -19,13 +19,6 @@
 
 package net.ccbluex.liquidbounce.features.module.modules.combat.tpaura
 
-import net.ccbluex.liquidbounce.config.types.Choice
-import net.ccbluex.liquidbounce.config.types.ChoiceConfigurable
-import net.ccbluex.liquidbounce.event.events.WorldRenderEvent
-import net.ccbluex.liquidbounce.event.handler
-import net.ccbluex.liquidbounce.event.tickHandler
-import net.ccbluex.liquidbounce.features.module.Category
-import net.ccbluex.liquidbounce.features.module.ClientModule
 import net.ccbluex.liquidbounce.features.module.ClientModule
 import net.ccbluex.liquidbounce.features.module.modules.combat.tpaura.modes.AStarMode
 import net.ccbluex.liquidbounce.features.module.modules.combat.tpaura.modes.ImmediateMode
@@ -81,5 +74,3 @@ object ModuleTpAura : ClientModule("TpAura", Category.COMBAT, disableOnQuit = tr
         val (yaw, pitch) = RotationManager.currentRotation ?: player.rotation
     }
 }
-
-// Ensure there is a new line at the end of the file
