@@ -1,0 +1,2 @@
+InvalidPackageDeclaration - [Category.kt] at C:\Users\teeja\Desktop\zephyr\src\main\kotlin\net\ccbluex\liquidbounce\features\module\modules\Category.kt:19:1 - Signature=Category.kt$package net.ccbluex.liquidbounce.features.module
+NewLineAtEndOfFile - [ModuleTpAura.kt] at C:\Users\teeja\Desktop\zephyr\src\main\kotlin\net\ccbluex\liquidbounce\features\module\modules\combat\tpaura\ModuleTpAura.kt:90:2 - Signature=ModuleTpAura.kt$net.ccbluex.liquidbounce.features.module.modules.combat.tpaura.ModuleTpAura.kt

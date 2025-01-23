@@ -170,13 +170,13 @@
 
 <div>
   <ul>
-    <li>99,135 lines of code (loc)</li>
+    <li>99,144 lines of code (loc)</li>
     <li>61,031 source lines of code (sloc)</li>
     <li>41,132 logical lines of code (lloc)</li>
-    <li>22,318 comment lines of code (cloc)</li>
+    <li>22,327 comment lines of code (cloc)</li>
     <li>11,060 cyclomatic complexity (mcc)</li>
     <li>4,758 cognitive complexity</li>
-    <li>0 number of total code smells</li>
+    <li>2 number of total code smells</li>
     <li>36% comment source ratio</li>
     <li>268 mcc per 1,000 lloc</li>
     <li>0 code smells per 1,000 lloc</li>
@@ -185,10 +185,42 @@
 
 
 <h2>Findings</h2>
-<div>Total: 0</div>
+<div>Total: 2
+  <h3>naming: 1</h3>
+  <details id="InvalidPackageDeclaration" open="open">
+    <summary class="rule-container"><span class="rule">InvalidPackageDeclaration: 1 </span><span class="description">Kotlin source files should be stored in the directory corresponding to its package statement.</span></summary>
+<a href="https://detekt.dev/docs/rules/naming#invalidpackagedeclaration">Documentation</a>
+    <ul>
+      <li><span class="location">C:/Users/teeja/Desktop/zephyr/src/main/kotlin/net/ccbluex/liquidbounce/features/module/modules/Category.kt:19:1</span><span class="message">The package declaration does not match the actual file location.</span>
+        <pre><code><span class="lineno">  16 </span> * You should have received a copy of the GNU General Public License
+<span class="lineno">  17 </span> * along with LiquidBounce. If not, see &lt;https://www.gnu.org/licenses/&gt;.
+<span class="lineno">  18 </span> */
+<span class="lineno">  19 </span><span class="error">package net.ccbluex.liquidbounce.features.module</span>
+<span class="lineno">  20 </span>
+<span class="lineno">  21 </span>enum class Category(val readableName: String) {
+<span class="lineno">  22 </span>
+</code></pre>
+      </li>
+    </ul>
+  </details>
+  <h3>style: 1</h3>
+  <details id="NewLineAtEndOfFile" open="open">
+    <summary class="rule-container"><span class="rule">NewLineAtEndOfFile: 1 </span><span class="description">Checks whether files end with a line separator.</span></summary>
+<a href="https://detekt.dev/docs/rules/style#newlineatendoffile">Documentation</a>
+    <ul>
+      <li><span class="location">C:/Users/teeja/Desktop/zephyr/src/main/kotlin/net/ccbluex/liquidbounce/features/module/modules/combat/tpaura/ModuleTpAura.kt:90:2</span><span class="message">The file C:\Users\teeja\Desktop\zephyr\src\main\kotlin\net\ccbluex\liquidbounce\features\module\modules\combat\tpaura\ModuleTpAura.kt is not ending with a new line.</span>
+        <pre><code><span class="lineno">  87 </span>open class TpAuraChoice(name: String) : Choice(name) {
+<span class="lineno">  88 </span>    override val parent: ChoiceConfigurable&lt;TpAuraChoice&gt;
+<span class="lineno">  89 </span>        get() = ModuleTpAura.mode
+<span class="lineno">  90 </span>}
+</code></pre>
+      </li>
+    </ul>
+  </details>
+</div>
 
 
-generated with <a href="https://detekt.dev/">detekt version 1.23.6</a> on 2025-01-22 01:32:09 UTC.
+generated with <a href="https://detekt.dev/">detekt version 1.23.6</a> on 2025-01-23 14:42:06 UTC.
 
 </body>
 </html>
