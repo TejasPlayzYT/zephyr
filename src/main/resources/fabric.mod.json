@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "id": "liquidbounce",
   "version": "${version}",
-  "name": "LiquidBounce",
-  "description": "A free mixin-based injection hacked-client for Minecraft using the Fabric modding toolchain.",
+  "name": "Zephyr",
+  "description": "Best Fabric client by Zewphyr",
   "authors": [
-    "CCBlueX"
+    "Chimera Studios"
   ],
-  "contributors": $contributors,
+  "contributors": ["Chimera", "Cry0"],
   "contact": {
     "homepage": "https://liquidbounce.net/",
     "sources": "https://github.com/CCBlueX/LiquidBounce/",
